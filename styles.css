@@ -1,0 +1,145 @@
+.body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headerbox {
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 1em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-container {
+    display: flex;
+    gap: 2em;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-image {
+    flex: 1;
+    height: 200px;
+    width: 50px;
+    background-color: gray;
+    text-align: center;
+    padding: 40px;
+}
+
+.random-header {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.randombox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    gap: 50px;
+    padding: 40px;
+}
+
+.emptybox {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.quotebox {
+    background-color: #E5E7EB;
+    padding: 3em;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quoteauthor {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+}
+
+.actionbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 3em;
+    border-radius: 8px;
+    gap: 3em;
+}
+
+.modal button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    height: 80px;
+}
